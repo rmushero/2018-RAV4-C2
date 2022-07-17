@@ -103,7 +103,8 @@ class CarInfo:
       if footnote is not None and footnote.value.star is not None:
         self.row[column] = footnote.value.star
 
-    self.tier = {5: Tier.GOLD, 4: Tier.SILVER}.get(list(self.row.values()).count(Star.FULL), Tier.BRONZE)
+    max_stars = len(StarColumns)
+    self.tier = {max_stars: Tier.GOLD, (max_stars-1): Tier.SILVER}.get(list(self.row.values()).count(Star.FULL), Tier.BRONZE)
     return self
 
   @no_type_check
