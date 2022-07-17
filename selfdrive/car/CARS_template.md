@@ -29,7 +29,7 @@ How We Rate The Cars
 # {{tier.name.title()}} - {{cars | length}} cars
 
 |{{Column | map(attribute='value') | join('|')}}|
-|---|---|---|:---:|:---:|:---:|:---:|:---:|
+|---|---|---|:---:|:---:|:---:|:---:|
 {% for car_info in cars %}
 |{% for column in Column %}{{car_info.get_column(column, star_icon, footnote_tag)}}|{% endfor %}
 

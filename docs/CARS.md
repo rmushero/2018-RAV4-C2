@@ -34,7 +34,7 @@ How We Rate The Cars
 # Gold - 30 cars
 
 |Make|Model|Supported Package|openpilot ACC|Stop and Go|Steer to 0|Steering Torque|
-|---|---|---|:---:|:---:|:---:|:---:|:---:|
+|---|---|---|:---:|:---:|:---:|:---:|
 |comma|body|All|<a href="##"><img valign="top" src="assets/icon-star-full.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-full.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-full.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-full.svg" width="22" /></a>|
 |Genesis|G70 2020|All|<a href="##"><img valign="top" src="assets/icon-star-full.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-full.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-full.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-full.svg" width="22" /></a>|
 |Hyundai|Palisade 2020-21|All|<a href="##"><img valign="top" src="assets/icon-star-full.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-full.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-full.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-full.svg" width="22" /></a>|
@@ -69,7 +69,7 @@ How We Rate The Cars
 # Silver - 80 cars
 
 |Make|Model|Supported Package|openpilot ACC|Stop and Go|Steer to 0|Steering Torque|
-|---|---|---|:---:|:---:|:---:|:---:|:---:|
+|---|---|---|:---:|:---:|:---:|:---:|
 |Audi|A3 2014-19|ACC + Lane Assist|<a href="##"><img valign="top" src="assets/icon-star-empty.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-full.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-full.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-full.svg" width="22" /></a>|
 |Audi|A3 Sportback e-tron 2017-18|ACC + Lane Assist|<a href="##"><img valign="top" src="assets/icon-star-empty.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-full.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-full.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-full.svg" width="22" /></a>|
 |Audi|RS3 2018|ACC + Lane Assist|<a href="##"><img valign="top" src="assets/icon-star-empty.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-full.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-full.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-full.svg" width="22" /></a>|
@@ -154,7 +154,7 @@ How We Rate The Cars
 # Bronze - 81 cars
 
 |Make|Model|Supported Package|openpilot ACC|Stop and Go|Steer to 0|Steering Torque|
-|---|---|---|:---:|:---:|:---:|:---:|:---:|
+|---|---|---|:---:|:---:|:---:|:---:|
 |Acura|ILX 2016-19|AcuraWatch Plus|<a href="##"><img valign="top" src="assets/icon-star-full.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-empty.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-empty.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-empty.svg" width="22" /></a>|
 |Acura|RDX 2016-18|AcuraWatch Plus|<a href="##"><img valign="top" src="assets/icon-star-full.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-empty.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-empty.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-empty.svg" width="22" /></a>|
 |Acura|RDX 2019-22|All|<a href="##"><img valign="top" src="assets/icon-star-empty.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-full.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-empty.svg" width="22" /></a>|<a href="##"><img valign="top" src="assets/icon-star-empty.svg" width="22" /></a>|
