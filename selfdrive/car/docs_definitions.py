@@ -25,7 +25,6 @@ class Column(Enum):
   FSR_LONGITUDINAL = "Stop and Go"
   FSR_STEERING = "Steer to 0"
   STEERING_TORQUE = "Steering Torque"
-  MAINTAINED = "Actively Maintained"
 
 
 class Star(Enum):
@@ -82,7 +81,6 @@ class CarInfo:
       Column.FSR_LONGITUDINAL: Star.FULL if min_enable_speed <= 0. else Star.EMPTY,
       Column.FSR_STEERING: Star.FULL if min_steer_speed <= 0. else Star.EMPTY,
       # Column.STEERING_TORQUE set below
-      Column.MAINTAINED: Star.FULL if CP.carFingerprint not in non_tested_cars and self.harness is not Harness.none else Star.EMPTY,
     }
 
     # Set steering torque star from max lateral acceleration
@@ -175,12 +173,6 @@ STAR_DESCRIPTIONS = {
       [Star.FULL.value, "Car has enough steering torque to take tighter turns."],
       [Star.HALF.value, "Car has enough steering torque for comfortable highway driving."],
       [Star.EMPTY.value, "Limited ability to make turns."],
-    ],
-  },
-  "Support": {
-    Column.MAINTAINED.value: [
-      [Star.FULL.value, "Mainline software support, harness hardware sold by comma, lots of users, primary development target."],
-      [Star.EMPTY.value, "Low user count, community maintained, harness hardware not sold by comma."],
     ],
   },
 }
